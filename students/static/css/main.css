@@ -1,0 +1,22 @@
+/* Global Styles */
+
+.row {
+	margin-bottom: 70px;
+}
+
+
+.name {
+  font-weight: bold;
+  font-family: "Times New Roman";
+  font-size: 230%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.text {
+	font-family: "Times New Roman";
+	font-size: 180%;
+	margin-top: 40px;
+	padding: 100px;
+}

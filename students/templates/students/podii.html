@@ -1,0 +1,20 @@
+{% extends "students/base.html" %}
+{% block content %}
+  {% for pod in podii %}
+  <table>
+  <div class="name">
+    <div>
+    <tr>
+       <td class="name">{{ pod.name }}</td>
+    </tr>
+    </div>
+    <div>
+    <tr>
+       <td class="text">{{ pod.text }}</td>
+    </tr>
+    <tr>
+    </tr>
+  </div>
+  </table>
+  {% endfor %}
+{% endblock content %}
